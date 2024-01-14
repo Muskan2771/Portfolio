@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/17103728fd.js" crossorigin="anonymous"></script>
+         </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        <div class="header-text">
+        <p>Software Developer</p> 
+        <h1>Hi, I'm <span>Muskan</span><br>From India</h1>
+    </div>
+</div>
+</div>
+<!---------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm Muskan Shaikh, an aspiring software developer eager to embark on a journey in the tech world. 
+                    Armed with a degree in B.E, I bring a strong foundation in Java script,c++ and data structures. 
+                    a passion for learning. My enthusiasm for tackling challenges and my commitment to staying abreast of the latest 
+                    technologies drive my ambition to contribute meaningfully in the software development landscape. Let's build the future of technology together!</p>
+            <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <!---<p class="tab-links">Experience</p>--->
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="Skills">
+            <ul>
+                <li><span>analytical skills</span><br> Strong problem-solving</li>
+                <li><span>Web Development</span><br>Web app development</li>
+                <li><span>App Development</span><br>Building Android/ioa apps</li>
+                
+            </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+            <ul>
+                <li><span>2019</span><br>Secondary School Certificate</li>
+                <li><span>2021</span><br>Higher Secondary Certificate</li>
+                <li><span>2025</span><br>Bachelor of Engineering From Indira College</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!------ services----->
+<div id="services">
+    <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fas fa-code"></i>
+        <h2>Web Design</h2>
+        <p>For web design services, focus on creating visually appealing interfaces with a user-friendly layout. Prioritize responsive design to ensure seamless navigation across devices, enhancing accessibility and user satisfaction.</p>
+        <a href="#">Learn more</a>
+    </div>
+    <div>
+        <i class="fab fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>For app design, emphasize intuitive user experiences, leveraging platform-specific design guidelines. Optimize for mobile interaction, streamline navigation, and integrate visually appealing elements to create a cohesive and engaging app interface tailored to your service.</p>
+        <a href="#">Learn more</a>
+    </div>
+</div>
+
+<!---- project---->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>Step into the realm of my digital playground. My portfolio website is more than a showcase; it's a testament to my journey as a software developer.</p>
+                <a href="#"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>This platform offers a personalized journey for every user. From browsing through a curated selection to secure checkout processes, it's not just a website; it's a shopping adventure</p>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>From product launches to event promotions, each landing page is meticulously crafted to capture attention, drive engagement, and convert visitors into active participants.</p>
+                <a href="#"><i class="fa-solid fa-key"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i></i> shaikhmuskan2771@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone-flip"></i>1234567890</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+                <a href="img/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Muskan.Made with<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+   }
+   event.currentTarget.classList.add("active-link");
+   document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTd7J6FH3ENFqKNmQlv332wkPz4-vSzrrSfNJehjMSfSBgeQSTGGlmUbdhZ2OE5mQX/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
